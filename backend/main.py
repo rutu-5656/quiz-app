@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.models import *
 
 from app.database import engine, Base
 from app.models import *  # registers all models with Base
