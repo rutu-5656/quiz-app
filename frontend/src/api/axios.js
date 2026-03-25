@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: "https://quiz-app.onrender.com",
+  baseURL: "https://quiz-app-rii3.onrender.com/",
 })
 
 // Attach token to every request
